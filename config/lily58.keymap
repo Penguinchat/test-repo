@@ -16,7 +16,7 @@
         default_layer {
 
             bindings = <
-&mo 1   &mo 2 &mo 3 &trans   &trans   &trans                    
+&mo 1   &mo 2 &mo 3 &kp CAPSLOCK  &trans   &trans                    
 &trans   &trans &trans &trans   &trans   &trans                     
 &trans   &trans &trans &trans   &trans   &trans                      
 &trans   &trans &trans &trans   &trans   &trans    &trans
@@ -27,7 +27,7 @@
         lower_layer {
 
             bindings = <
-&trans   &trans &trans &trans   &trans   &trans                    
+&kp KP_NUMBER_7   &trans &trans &trans   &trans   &trans                    
 &trans   &trans &trans &trans   &trans   &trans                     
 &trans   &trans &trans &trans   &trans   &trans                      
 &trans   &trans &trans &trans   &trans   &trans    &trans
