@@ -101,6 +101,12 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5)
         layer-label = "LAYER";		
 	
 	};
+	led_strip: led-strip-remap {
+		compatible = "zmk,led-strip-remap";
+
+		chain-length = <35>;
+		led-strip = <&ws2812>;
+		map = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 >;
 		status_indicator {
 			label = "STATUS";
 			led-indexes = <16>;
@@ -109,15 +115,6 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5)
 			label = "LAYER";
 			led-indexes = <11>;
 		};
-
-
-	led_strip: led-strip-remap {
-		compatible = "zmk,led-strip-remap";
-
-		chain-length = <35>;
-		led-strip = <&ws2812>;
-		map = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 >;
-
 	
 		};
 };
